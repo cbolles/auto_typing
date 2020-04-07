@@ -29,7 +29,7 @@ key is pressed. The delimeter can be set to anything however.
 
 Here is example of sending someone the contents of bubble.txt over messages.
 
-![text](use_example/example.PNG =x500)
+<img src="use_example/example.PNG" width="250">
 
 ## Input
 The source is required which is the path the the file to type out. The optional parameter
