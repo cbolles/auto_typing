@@ -1,3 +1,11 @@
+"""
+A tool that simulates keypresses based on a given input file. The program works by accepting a
+source file containing the text and an optional delimeter for how to split up the text. The
+program then creates an array of string based on the delimeter. Once the user presses the
+ESCAPE key, each value in the array will be typed out seperated by newlines.
+
+:author Collin Bolles:
+"""
 import keyboard
 import argparse
 from typing import List
@@ -39,7 +47,7 @@ def main():
 
     # Get the segments seperated based on the defined delimeter
     segments = get_segments(args.delimeter, args.source)
-    print(segments)
+
     # Setup listener to kick off running the typing function
     keyboard.add_hotkey('esc', lambda: run_typing(segments))
 
