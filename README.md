@@ -27,6 +27,9 @@ $ poetry run main example_inputs/fitness.txt --delimeter="\n"
 This example will print out all the contents of fitness.txt in which after each newline the enter
 key is pressed. The delimeter can be set to anything however.
 
+Here is example of sending someone the contents of bubble.txt over messages.
+
+![alt text](use_example/example.PNG)
 ## Input
 The source is required which is the path the the file to type out. The optional parameter
 "delimeter" can be provided to specify how to seperate the file.
